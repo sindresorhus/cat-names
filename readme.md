@@ -30,7 +30,7 @@ catNames.random();
 
 Type: `array`
 
-Top 100 cat names in alfabetical order.
+Top 100 cat names in alphabetical order.
 
 ### .random()
 
