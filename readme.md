@@ -6,6 +6,8 @@
 
 The name list is just a [JSON file](cat-names.json) and can be used wherever.
 
+*Not accepting PRs for additional names.*
+
 
 ## Install
 
