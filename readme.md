@@ -66,8 +66,10 @@ $ cat-names --help
 
 ## Related
 
-- [`dog-names`](https://github.com/sindresorhus/dog-names) - Get popular dog names
-- [`superb`](https://github.com/sindresorhus/superb) - Get superb like words
+- [dog-names](https://github.com/sindresorhus/dog-names) - Get popular dog names
+- [superb](https://github.com/sindresorhus/superb) - Get superb like words
+- [superheroes](https://github.com/sindresorhus/superheroes) - Get superhero names
+- [supervillains](https://github.com/sindresorhus/supervillains) - Get supervillain names
 
 
 ## License
