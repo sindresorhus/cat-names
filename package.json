@@ -4,14 +4,12 @@
   "description": "Get popular cat names",
   "license": "MIT",
   "repository": "sindresorhus/cat-names",
-  "bin": {
-    "cat-names": "cli.js"
-  },
   "author": {
     "name": "Sindre Sorhus",
     "email": "sindresorhus@gmail.com",
     "url": "sindresorhus.com"
   },
+  "bin": "cli.js",
   "engines": {
     "node": ">=0.10.0"
   },
