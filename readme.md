@@ -19,10 +19,10 @@ $ npm install --save cat-names
 ## Usage
 
 ```js
-var catNames = require('cat-names');
+const catNames = require('cat-names');
 
 catNames.random();
-//=> Max
+//=> 'Max'
 ```
 
 
