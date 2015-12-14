@@ -1,12 +1,10 @@
-'use strict';
-var test = require('ava');
-var catNames = require('./');
+import test from 'ava';
+import x from './';
 
-test(function (t) {
-	t.assert(catNames.all.length > 0);
-	t.assert(catNames.random());
-	t.assert(catNames.random() !== catNames.random());
-	t.assert(catNames.all[0] === 'Abby');
-	t.assert(catNames.all[1] === 'Angel');
-	t.end();
+test(t => {
+	t.true(x.all.length > 0);
+	t.ok(x.random());
+	t.not(x.random(), x.random());
+	t.is(x.all[0], 'Abby');
+	t.is(x.all[1], 'Angel');
 });

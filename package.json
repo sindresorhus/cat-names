@@ -14,7 +14,7 @@
     "node": ">=0.10.0"
   },
   "scripts": {
-    "test": "node test.js"
+    "test": "xo && ava"
   },
   "files": [
     "index.js",
@@ -41,10 +41,11 @@
     "male"
   ],
   "dependencies": {
-    "meow": "^3.4.0",
+    "meow": "^3.6.0",
     "unique-random-array": "^1.0.0"
   },
   "devDependencies": {
-    "ava": "0.0.4"
+    "ava": "*",
+    "xo": "*"
   }
 }
