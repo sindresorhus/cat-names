@@ -1,6 +1,6 @@
 'use strict';
 var uniqueRandomArray = require('unique-random-array');
-var catNames = require('./cat-names.json');
+var movieQuotes = require('./movie-quotes.json');
 
-exports.all = catNames;
-exports.random = uniqueRandomArray(catNames);
+exports.all = movieQuotes;
+exports.random = uniqueRandomArray(movieQuotes);
