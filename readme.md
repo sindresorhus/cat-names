@@ -1,27 +1,27 @@
-# cat-names [![Build Status](https://travis-ci.org/sindresorhus/cat-names.svg?branch=master)](https://travis-ci.org/sindresorhus/cat-names)
+# movie-quotes [![Build Status](https://travis-ci.org/vilaboim/movie-quotes.svg?branch=master)](https://travis-ci.org/vilaboim/movie-quotes)
 
-> Get popular cat names
+> Get popular movie quotes
 
-![](dofle.jpg)
+![](yoda.gif)
 
-The name list is just a [JSON file](cat-names.json) and can be used wherever.
+The name list is just a [JSON file](movie-quotes.json) and can be used wherever.
 
-*Not accepting PRs for additional names.*
+*Not accepting PRs for additional quotes.*
 
 
 ## Install
 
 ```
-$ npm install --save cat-names
+$ npm install --save movie-quotes
 ```
 
 
 ## Usage
 
 ```js
-const catNames = require('cat-names');
+const movieQuotes = require('movie-quotes');
 
-catNames.random();
+movieQuotes.random();
 //=> 'Max'
 ```
 
@@ -32,40 +32,41 @@ catNames.random();
 
 Type: `array`
 
-Top 100 cat names in alphabetical order.
+Top 100 best movie quotes according AFI.
 
 ### .random()
 
 Type: `function`
 
-Random cat name.
+Random movie quote.
 
 
 ## CLI
 
 ```
-$ npm install --global cat-names
+$ npm install --global movie-quotes
 ```
 
 ```
-$ cat-names --help
+$ movie-quotes --help
 
   Examples
-    $ cat-names
-    Max
+    $ movie-quotes
+    "Show me the money!" Jerry Maguire
 
-    $ cat-names --all
-    Abby
-    Angel
+    $ movie-quotes --all
+	"Frankly, my dear, I don't give a damn." Gone with the Wind
+    "I'm gonna make him an offer he can't refuse." The Godfather
     ...
 
   Options
-    --all   Get all names instead of a random name
+    --all   Get all quotes instead of a random quote
 ```
 
 
 ## Related
 
+- [cat-names](https://github.com/sindresorhus/cat-names) - Get popular cat names
 - [dog-names](https://github.com/sindresorhus/dog-names) - Get popular dog names
 - [pokemon](https://github.com/sindresorhus/pokemon) - Get Pokémon names
 - [superb](https://github.com/sindresorhus/superb) - Get superb like words
@@ -77,4 +78,4 @@ $ cat-names --help
 
 ## License
 
-MIT © [Sindre Sorhus](http://sindresorhus.com)
+MIT © [Lucas Vilaboim](http://vilaboim.com)

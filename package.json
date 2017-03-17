@@ -1,13 +1,13 @@
 {
-  "name": "cat-names",
-  "version": "1.0.2",
-  "description": "Get popular cat names",
+  "name": "quotes-generator",
+  "version": "1.0.0",
+  "description": "Get popular movie quotes",
   "license": "MIT",
-  "repository": "sindresorhus/cat-names",
+  "repository": "vilaboim/quotes-generator",
   "author": {
-    "name": "Sindre Sorhus",
-    "email": "sindresorhus@gmail.com",
-    "url": "sindresorhus.com"
+    "name": "Lucas Vilaboim",
+    "email": "lucas@vilaboim.com",
+    "url": "vilaboim.com"
   },
   "bin": "cli.js",
   "engines": {
@@ -19,7 +19,7 @@
   "files": [
     "index.js",
     "cli.js",
-    "cat-names.json"
+    "movie-quotes.json"
   ],
   "keywords": [
     "cli-app",
@@ -31,14 +31,10 @@
     "array",
     "random",
     "rand",
-    "animal",
-    "cat",
-    "cats",
-    "kitten",
-    "name",
-    "names",
-    "female",
-    "male"
+    "movies",
+    "quote",
+    "quotes",
+    "cinema"
   ],
   "dependencies": {
     "meow": "^3.6.0",
