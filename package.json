@@ -19,7 +19,8 @@
 	"files": [
 		"index.js",
 		"cli.js",
-		"cat-names.json"
+		"cat-names.json",
+		"index.d.ts"
 	],
 	"keywords": [
 		"cli-app",
@@ -47,5 +48,6 @@
 	"devDependencies": {
 		"ava": "^0.25.0",
 		"xo": "^0.23.0"
-	}
+	},
+	"types": "index.d.ts"
 }
