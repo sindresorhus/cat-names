@@ -1,10 +1,10 @@
 import test from 'ava';
-import x from './';
+import catNames from '.';
 
-test(t => {
-	t.true(x.all.length > 0);
-	t.truthy(x.random());
-	t.not(x.random(), x.random());
-	t.is(x.all[0], 'Abby');
-	t.is(x.all[1], 'Angel');
+test('main', t => {
+	t.true(catNames.all.length > 0);
+	t.truthy(catNames.random());
+	t.not(catNames.random(), catNames.random());
+	t.is(catNames.all[0], 'Abby');
+	t.is(catNames.all[1], 'Angel');
 });

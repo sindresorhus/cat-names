@@ -12,7 +12,7 @@ The name list is just a [JSON file](cat-names.json) and can be used wherever.
 ## Install
 
 ```
-$ npm install --save cat-names
+$ npm install cat-names
 ```
 
 
@@ -57,10 +57,10 @@ $ cat-names --help
     $ cat-names --all
     Abby
     Angel
-    ...
+    …
 
   Options
-    --all   Get all names instead of a random name
+    --all  Get all names instead of a random name
 ```
 
 
@@ -77,4 +77,4 @@ $ cat-names --help
 
 ## License
 
-MIT © [Sindre Sorhus](http://sindresorhus.com)
+MIT © [Sindre Sorhus](https://sindresorhus.com)

@@ -1,51 +1,51 @@
 {
-  "name": "cat-names",
-  "version": "1.0.2",
-  "description": "Get popular cat names",
-  "license": "MIT",
-  "repository": "sindresorhus/cat-names",
-  "author": {
-    "name": "Sindre Sorhus",
-    "email": "sindresorhus@gmail.com",
-    "url": "sindresorhus.com"
-  },
-  "bin": "cli.js",
-  "engines": {
-    "node": ">=0.10.0"
-  },
-  "scripts": {
-    "test": "xo && ava"
-  },
-  "files": [
-    "index.js",
-    "cli.js",
-    "cat-names.json"
-  ],
-  "keywords": [
-    "cli-app",
-    "cli",
-    "bin",
-    "word",
-    "words",
-    "list",
-    "array",
-    "random",
-    "rand",
-    "animal",
-    "cat",
-    "cats",
-    "kitten",
-    "name",
-    "names",
-    "female",
-    "male"
-  ],
-  "dependencies": {
-    "meow": "^3.6.0",
-    "unique-random-array": "^1.0.0"
-  },
-  "devDependencies": {
-    "ava": "*",
-    "xo": "^0.16.0"
-  }
+	"name": "cat-names",
+	"version": "1.0.2",
+	"description": "Get popular cat names",
+	"license": "MIT",
+	"repository": "sindresorhus/cat-names",
+	"author": {
+		"name": "Sindre Sorhus",
+		"email": "sindresorhus@gmail.com",
+		"url": "sindresorhus.com"
+	},
+	"bin": "cli.js",
+	"engines": {
+		"node": ">=6"
+	},
+	"scripts": {
+		"test": "xo && ava"
+	},
+	"files": [
+		"index.js",
+		"cli.js",
+		"cat-names.json"
+	],
+	"keywords": [
+		"cli-app",
+		"cli",
+		"bin",
+		"word",
+		"words",
+		"list",
+		"array",
+		"random",
+		"rand",
+		"animal",
+		"cat",
+		"cats",
+		"kitten",
+		"name",
+		"names",
+		"female",
+		"male"
+	],
+	"dependencies": {
+		"meow": "^5.0.0",
+		"unique-random-array": "^1.0.0"
+	},
+	"devDependencies": {
+		"ava": "^0.25.0",
+		"xo": "^0.23.0"
+	}
 }
