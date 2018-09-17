@@ -19,7 +19,8 @@
 	"files": [
 		"index.js",
 		"cli.js",
-		"cat-names.json"
+		"cat-names.json",
+		"index.d.ts"
 	],
 	"keywords": [
 		"cli-app",
