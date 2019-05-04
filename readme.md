@@ -4,9 +4,9 @@
 
 ![](dofle.jpg)
 
-The name list is just a [JSON file](cat-names.json) and can be used wherever.
+The name list is just a [JSON file](cat-names.json) and can be used anywhere.
 
-*Not accepting PRs for additional names.*
+*I'm not accepting PRs for additional names.*
 
 
 ## Install
