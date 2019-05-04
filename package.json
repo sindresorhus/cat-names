@@ -1,6 +1,6 @@
 {
 	"name": "cat-names",
-	"version": "2.0.0",
+	"version": "3.0.0",
 	"description": "Get popular cat names",
 	"license": "MIT",
 	"repository": "sindresorhus/cat-names",
