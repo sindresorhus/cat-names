@@ -21,6 +21,9 @@ $ npm install cat-names
 ```js
 const catNames = require('cat-names');
 
+catNames.all;
+//=> ['Abby', 'Angel', …]
+
 catNames.random();
 //=> 'Max'
 ```
@@ -30,13 +33,13 @@ catNames.random();
 
 ### .all
 
-Type: `array`
+Type: `string[]`
 
 Top 100 cat names in alphabetical order.
 
 ### .random()
 
-Type: `function`
+Type: `Function`
 
 Random cat name.
 
