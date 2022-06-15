@@ -42,7 +42,7 @@
 		"male"
 	],
 	"dependencies": {
-		"meow": "^5.0.0",
+		"meow": "^6.1.1",
 		"unique-random-array": "^2.0.0"
 	},
 	"devDependencies": {
@@ -53,6 +53,11 @@
 	"tsd": {
 		"compilerOptions": {
 			"resolveJsonModule": true
+		}
+	},
+	"xo": {
+		"rules": {
+			"import/extensions": "off"
 		}
 	}
 }
