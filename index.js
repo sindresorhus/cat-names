@@ -1,6 +1,6 @@
-'use strict';
-const uniqueRandomArray = require('unique-random-array');
-const catNames = require('./cat-names.json');
+import uniqueRandomArray from 'unique-random-array';
+import catNames from './cat-names.json' with {type: 'json'};
 
-exports.all = catNames;
-exports.random = uniqueRandomArray(catNames);
+export {catNames};
+
+export const randomCatName = uniqueRandomArray(catNames);

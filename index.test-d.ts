@@ -1,5 +1,5 @@
 import {expectType} from 'tsd';
-import catNames = require('.');
+import {catNames, randomCatName} from './index.js';
 
-expectType<readonly string[]>(catNames.all);
-expectType<string>(catNames.random());
+expectType<readonly string[]>(catNames);
+expectType<string>(randomCatName());

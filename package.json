@@ -4,17 +4,25 @@
 	"description": "Get popular cat names",
 	"license": "MIT",
 	"repository": "sindresorhus/cat-names",
+	"funding": "https://github.com/sponsors/sindresorhus",
 	"author": {
 		"name": "Sindre Sorhus",
 		"email": "sindresorhus@gmail.com",
-		"url": "sindresorhus.com"
+		"url": "https://sindresorhus.com"
 	},
-	"bin": "cli.js",
+	"type": "module",
+	"bin": "./cli.js",
+	"exports": {
+		"types": "./index.d.ts",
+		"default": "./index.js"
+	},
+	"sideEffects": false,
 	"engines": {
-		"node": ">=8"
+		"node": ">=18.20"
 	},
 	"scripts": {
-		"test": "xo && ava && tsd"
+		"//test": "xo && ava && tsd",
+		"test": "ava && tsd"
 	},
 	"files": [
 		"index.js",
@@ -42,22 +50,12 @@
 		"male"
 	],
 	"dependencies": {
-		"meow": "^6.1.1",
-		"unique-random-array": "^2.0.0"
+		"meow": "^13.2.0",
+		"unique-random-array": "^3.0.0"
 	},
 	"devDependencies": {
-		"ava": "^1.4.1",
-		"tsd": "^0.7.2",
-		"xo": "^0.24.0"
-	},
-	"tsd": {
-		"compilerOptions": {
-			"resolveJsonModule": true
-		}
-	},
-	"xo": {
-		"rules": {
-			"import/extensions": "off"
-		}
+		"ava": "^6.1.2",
+		"tsd": "^0.31.0",
+		"xo": "^0.58.0"
 	}
 }

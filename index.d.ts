@@ -1,31 +1,25 @@
-import catNamesJson = require('./cat-names.json');
+/**
+Top 100 cat names in alphabetical order.
 
-declare const catNames: {
-	/**
-	Top 100 cat names in alphabetical order.
+@example
+```
+import {catNames} from 'cat-names';
 
-	@example
-	```
-	import catNames = require('cat-names');
+catNames;
+//=> ['Abby', 'Angel', …]
+```
+*/
+export const catNames: readonly string[];
 
-	catNames.all;
-	//=> ['Abby', 'Angel', …]
-	```
-	*/
-	readonly all: Readonly<typeof catNamesJson>;
+/**
+Get a random cat name.
 
-	/**
-	Random cat name.
+@example
+```
+import {randomCatName} from 'cat-names';
 
-	@example
-	```
-	import catNames = require('cat-names');
-
-	catNames.random();
-	//=> 'Max'
-	```
-	*/
-	random(): string;
-};
-
-export = catNames;
+randomCatName();
+//=> 'Max'
+```
+*/
+export function randomCatName(): string;

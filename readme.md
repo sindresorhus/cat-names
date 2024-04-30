@@ -8,46 +8,42 @@ The name list is just a [JSON file](cat-names.json) and can be used anywhere.
 
 *I'm not accepting PRs for additional names.*
 
-
 ## Install
 
+```sh
+npm install cat-names
 ```
-$ npm install cat-names
-```
-
 
 ## Usage
 
 ```js
-const catNames = require('cat-names');
+import {catNames, randomCatName} from 'cat-names';
 
-catNames.all;
+catNames;
 //=> ['Abby', 'Angel', …]
 
-catNames.random();
+randomCatName();
 //=> 'Max'
 ```
 
-
 ## API
 
-### .all
+### catNames
 
 Type: `string[]`
 
 Top 100 cat names in alphabetical order.
 
-### .random()
+### randomCatName()
 
 Type: `Function`
 
-Random cat name.
-
+Get a random cat name.
 
 ## CLI
 
-```
-$ npm install --global cat-names
+```sh
+npm install --global cat-names
 ```
 
 ```
@@ -66,7 +62,6 @@ $ cat-names --help
     --all  Get all names instead of a random name
 ```
 
-
 ## Related
 
 - [dog-names](https://github.com/sindresorhus/dog-names) - Get popular dog names
@@ -76,8 +71,3 @@ $ cat-names --help
 - [supervillains](https://github.com/sindresorhus/supervillains) - Get supervillain names
 - [random-tree-names](https://github.com/pguth/random-tree-names) - Get tree names
 - [yes-no-words](https://github.com/sindresorhus/yes-no-words) - Get yes/no like words
-
-
-## License
-
-MIT © [Sindre Sorhus](https://sindresorhus.com)

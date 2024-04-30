@@ -1,10 +1,10 @@
 import test from 'ava';
-import catNames from '.';
+import {catNames, randomCatName} from './index.js';
 
 test('main', t => {
-	t.true(catNames.all.length > 0);
-	t.truthy(catNames.random());
-	t.not(catNames.random(), catNames.random());
-	t.is(catNames.all[0], 'Abby');
-	t.is(catNames.all[1], 'Angel');
+	t.true(catNames.length > 0);
+	t.truthy(randomCatName());
+	t.not(randomCatName(), randomCatName());
+	t.is(catNames[0], 'Abby');
+	t.is(catNames[1], 'Angel');
 });

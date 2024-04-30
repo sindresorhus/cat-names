@@ -1,7 +1,6 @@
 #!/usr/bin/env node
-'use strict';
-const meow = require('meow');
-const catNames = require('.');
+import meow from 'meow';
+import {catNames, randomCatName} from './index.js';
 
 const cli = meow(`
 	Examples
@@ -15,6 +14,8 @@ const cli = meow(`
 
 	Options
 	  --all  Get all names instead of a random name
-`);
+`, {
+	importMeta: import.meta,
+});
 
-console.log(cli.flags.all ? catNames.all.join('\n') : catNames.random());
+console.log(cli.flags.all ? catNames.join('\n') : randomCatName());
